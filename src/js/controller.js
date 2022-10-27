@@ -128,6 +128,10 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addhandlerClick(controlPagination);
   addRecipeView._addHandlerUpload(controlAddRecipe);
-  console.log('Welcome');
+  newFeature();
 };
 init();
+
+const newFeature = function () {
+  console.log(`Welcome to the application`);
+};
